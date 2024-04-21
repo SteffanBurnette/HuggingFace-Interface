@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* take up full height of screen */
+    width: 100%; /* take up full width of screen */
+  }
+  
+  .left-half, .right-half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* light gray */
+    padding: 20px;
+  }
+  
+  .right-half {
+    background-color: #e0e0e0; /* dark gray */
+  }
